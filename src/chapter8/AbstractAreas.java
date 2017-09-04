@@ -40,13 +40,14 @@ class Triangle2 extends Fiqure2 {
     }
 }
 
-public class AbstractAreas {
+
+
+class AbstractAreas {
     public static void main(String[] args) {
        // Fiqure2 f = new Fiqure2(11, 11); Illegal now
         Rectangle r = new Rectangle(8, 4);
         Triangle t = new Triangle(9, 8);
         Fiqure  figref; // this is ok, no object is created
-
         figref = r;
         System.out.println("Area is " + figref.area());
 
