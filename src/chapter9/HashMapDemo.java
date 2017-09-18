@@ -12,7 +12,7 @@ public class HashMapDemo {
         hm.put("jon", 2.32);
         hm.put("Vasja", 5.1235);
         hm.put("mike", 4.325);
-        NavigableMap
+
         // Get a set of the entries.
         Set<Map.Entry<String, Double>> set = hm.entrySet();
 
